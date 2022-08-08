@@ -1,3 +1,8 @@
+
+body{
+    background-color: gray;    
+}
+
 #title{
     font-family: Helvetica;
     font-size: 100px;
@@ -7,35 +12,27 @@
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
 }
 
-#brushes{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
+ul#menu{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 25px;    
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li#menu{
+    float: left;
+  }
+  
+  li#menu a {
+    display: block;
     color: white;
-    background-color: mediumspringgreen;
-    text-align: left;
-}
-
-#frames{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    background-color: lightcoral;
-    text-align: left;
-}
-
-#paint{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    background-color: skyblue;
-    text-align: left;
-}
-
-#prices{
-    font-family: Helvetica;
-    font-weight: bold;
-    color: blue;
-}
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+  }
+  
+  li#menu a:hover {
+    background-color: #111;
+  }
