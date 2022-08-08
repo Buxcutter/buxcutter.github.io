@@ -8,8 +8,12 @@
   font-size: 100px;
   font-weight: bold;
   color: khaki;
-  text-align: center;
-  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+  text-align: center; 
+  }
+
+  .footer_pic{
+    max-width: 50%;
+    max-height: 50%;
   }
 
   ul#menu{
@@ -24,14 +28,18 @@
   .container {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   }
 
-  img {
+  img#prof_pic{
   max-width: 100%;
   } 
 
-  .image {
+  img#header_logo{
+    max-width: 10%;
+  }
+
+  .image_prof {
   flex-basis: 40%;
   }
 
