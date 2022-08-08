@@ -1,68 +1,96 @@
 
-body{
-    background-color: gray;    
-}
+  body{
+  background-color: gray;    
+  }
 
-#title{
-    font-family: Helvetica;
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
-    text-align: center;
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
-}
+  #title{
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+  }
 
-ul#menu{
-    list-style-type: none;
-    margin-top: 0px;
-    margin-bottom: 25px;    
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  ul#menu{
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 25px;    
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  }
+
+  img {
+  max-width: 100%;
+  } 
+
+  .image {
+  flex-basis: 40%;
+  }
+
+  .text {
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: left;
   }
 
   #docname{
-    text-align: center;
-}
-
-.profile_pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+  text-align: left;
   }
 
-  #contact_title{
-    text-align: center;
-}
 
-.contact_pic {
+  #contact_title{
+  text-align: center;
+  }
+
+  .contact_pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+  }
 
-#services_title{
+  #services_title{
   text-align: center;
-}
+  }
 
-#documents_title{
+  #documents_title{
   text-align: center;
-}
+  }
 
-li#menu{
+  li#menu{
   float: left;
-}
+  }
 
-li#menu a {
+  li#menu a {
   display: block;
   color: white;
   text-align: center;
   padding: 20px 25px;
   text-decoration: none;
-}
+  }
 
-li#menu a:hover {
+  li#menu a:hover {
   background-color: #111;
-}
+  }
+
+  ul#services  {
+    padding: 80;
+    width: 80%;
+  }
+
+  ul#services li {
+    display:inline-table;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    border: thin solid lightgray;
+    padding: 1em;
+  }
